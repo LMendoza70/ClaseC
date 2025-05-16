@@ -1,0 +1,7 @@
+D:\2025-2\Practicas\ClaseC\ClaseC\bin\Debug\ClaseC.exe.config
+D:\2025-2\Practicas\ClaseC\ClaseC\bin\Debug\ClaseC.exe
+D:\2025-2\Practicas\ClaseC\ClaseC\bin\Debug\ClaseC.pdb
+D:\2025-2\Practicas\ClaseC\ClaseC\obj\Debug\ClaseC.csproj.AssemblyReference.cache
+D:\2025-2\Practicas\ClaseC\ClaseC\obj\Debug\ClaseC.csproj.CoreCompileInputs.cache
+D:\2025-2\Practicas\ClaseC\ClaseC\obj\Debug\ClaseC.exe
+D:\2025-2\Practicas\ClaseC\ClaseC\obj\Debug\ClaseC.pdb
