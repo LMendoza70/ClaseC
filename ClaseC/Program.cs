@@ -12,10 +12,13 @@ namespace ClaseC
         {
             //creamos el objeto de la clase rectangulo
             ClsRectangulo miRectangulo = new ClsRectangulo();
+            ClsRectangulo Rectangulo2 = new ClsRectangulo(10, 20);
+            ClsCuadrado miCuadro = new ClsCuadrado();
+            ClsFigura figura = new ClsRectangulo();
 
             //capturamos los valores de alto y ancho
             Console.WriteLine("Captura el ancho que tendra el rectangulo");
-            miRectangulo.setAncho(float.Parse(Console.ReadLine()));
+            miRectangulo._Ancho = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Captura el Alto del rectangulo");
             miRectangulo.setAlto(float.Parse(Console.ReadLine()));

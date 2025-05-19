@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClaseC
 {
-    class ClsRectangulo
+    class ClsRectangulo:ClsFigura
     {
         //atrubutos
         private float Alto;
@@ -19,16 +19,14 @@ namespace ClaseC
         }
         public void setAlto(float value)
         {
-            Alto = value;
+                Alto = value;
         } 
-        public float getAncho()
+        
+        public float _Ancho
         {
-            return Ancho;
-        }
+            get { return Ancho; }
+            set { Ancho = value; }
 
-        public void setAncho(float value)
-        {
-            Ancho = value;
         }
 
         //metodo constructor
@@ -36,6 +34,12 @@ namespace ClaseC
         {
             Ancho = 0;
             Alto = 0;
+        }
+        //constructor parametrizado
+        public ClsRectangulo(float _base, float _altura)
+        {
+            Ancho = _base;
+            Alto = _altura;
         }
         //definimos metodos
         public float Area()
