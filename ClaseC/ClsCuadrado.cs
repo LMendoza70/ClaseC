@@ -28,14 +28,14 @@ namespace ClaseC
         }
         //metodos
 
-        public float Area()
+        public override float Area()
         {
             float res = 0;
             res = Lado * Lado;
             return res;
         }
 
-        public float Perimetro()
+        public override float Perimetro()
         {
             float res = 0;
             res = Lado * 4;

@@ -16,6 +16,11 @@ namespace ClaseC
             ClsCuadrado miCuadro = new ClsCuadrado();
             ClsFigura figura = new ClsRectangulo();
 
+            clsTriangulo triangulo = new clsTriangulo();
+
+            ClsFigura ejemplo;
+
+
             //capturamos los valores de alto y ancho
             Console.WriteLine("Captura el ancho que tendra el rectangulo");
             miRectangulo._Ancho = float.Parse(Console.ReadLine());

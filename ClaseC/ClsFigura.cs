@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace ClaseC
 {
-    class ClsFigura
+    abstract class ClsFigura
     {
-        public float Area()
-        {
-            return 0;
-        }
+        public abstract float Area();
 
-        public float Perimetro()
+
+        public abstract float Perimetro();
+
+        public string Descripcion()
         {
-            return 0;
+            return "Esto es una simple fugura";
         }
+       
     }
 }

@@ -46,6 +46,7 @@
     <Compile Include="ClsCuadrado.cs" />
     <Compile Include="ClsFigura.cs" />
     <Compile Include="ClsRectangulo.cs" />
+    <Compile Include="clsTriangulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
